@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM python:3.12.11
 
 # Install system dependencies required by Playwright
 RUN apt-get update && apt-get install -y \
