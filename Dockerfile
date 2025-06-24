@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
     libdbus-glib-1-2 xdg-utils \
     libgstreamer1.0-0 gstreamer1.0-libav gstreamer1.0-tools gstreamer1.0-alsa \
     libflite1 libopus0 libvpx7 libx264-dev libwoff1 \
-    libenchant-2-2 libsecret-1-0 libhyphen0 libmanette-0.2-0 libavif13 \
+    libenchant-2-2 libsecret-1-0 libhyphen0 libmanette-0.2-0 \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
