@@ -19,7 +19,6 @@ RUN pip install -r requirements.txt
 
 # Install Playwright and browsers
 RUN pip install playwright && playwright install 
-RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
 # Expose Gradio port
 EXPOSE 7860
 
