@@ -26,7 +26,7 @@ AgentFlow is a multi-agent workflow orchestration assistant built with LangChain
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/rohithsiddi/AgentFlow-Multi-Agent-Workflow-Orchestration-Assistant.git
 cd AgentFlow
 ```
 
