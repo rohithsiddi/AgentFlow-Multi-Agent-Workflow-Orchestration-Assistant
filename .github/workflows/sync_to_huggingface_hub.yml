@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://rohithsiddi:$HF_TOKEN@huggingface.co/spaces/rohithsiddi/AgentFlow-Multi-Agent-Workflow-Orchestration-Assistant main
+        run: git push --force https://rohithsiddi:$HF_TOKEN@huggingface.co/spaces/rohithsiddi/AgentFlow-Multi-Agent-Workflow-Orchestration-Assistant main
