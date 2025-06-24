@@ -1,7 +1,7 @@
 ---
 title: AgentFlow-Multi-Agent_Workflow_Orchestration_Assistant
 app_file: app.py
-sdk: gradio
+sdk: docker
 sdk_version: 5.33.0
 ---
 # AgentFlow
