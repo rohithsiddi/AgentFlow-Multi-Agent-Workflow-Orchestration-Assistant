@@ -5,6 +5,8 @@ load_dotenv(override=True)
 # Redirect cache locations to writable directory (For huggingface deployment)
 os.environ["HF_HOME"] = "/tmp"
 os.environ["SENTENCE_TRANSFORMERS_HOME"] = "/tmp"
+os.environ["HUGGINGFACE_HUB_TOKEN"] = os.getenv("HF_TOKEN")
+
 
 import gradio as gr
 from agentflow_tools import create_calendar_event, list_upcoming_events, ingest_pdf_for_rag
