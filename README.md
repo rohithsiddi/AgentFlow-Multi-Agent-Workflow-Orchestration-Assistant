@@ -87,7 +87,7 @@ PUSHOVER_USER=your_pushover_user
 
 ### PDF RAG
 - Upload a PDF using the UI.
-- Ask questions about its content (e.g., "What is my name?").
+- Ask questions about its content.
 - The assistant will cite the PDF as the source when using its content.
 
 ### Detailed Reports & Summaries
