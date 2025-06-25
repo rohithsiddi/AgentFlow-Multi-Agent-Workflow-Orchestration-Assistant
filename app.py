@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 
 # Redirect cache locations to writable directory (For huggingface deployment)
-os.environ["TRANSFORMERS_CACHE"] = "/tmp"
 os.environ["HF_HOME"] = "/tmp"
 os.environ["SENTENCE_TRANSFORMERS_HOME"] = "/tmp"
 
