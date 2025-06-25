@@ -2,6 +2,9 @@
 
 AgentFlow is a multi-agent workflow orchestration assistant built with LangChain, Gradio, and modern LLMs. It supports tool-augmented reasoning, Retrieval-Augmented Generation (RAG) from uploaded PDFs, and Google Calendar integration.
 
+**Live Demo**: Try AgentFlow directly in your browser via Hugging Face Spaces:  
+[![Hugging Face Spaces](https://img.shields.io/badge/HuggingFace-Spaces-blue?logo=huggingface)](https://huggingface.co/spaces/rohithsiddi/AgentFlow-Multi-Agent-Workflow-Orchestration-Assistant)
+
 ## Features
 
 - **Multi-Agent Orchestration:** Modular agents for planning, research, coding, and evaluation.
