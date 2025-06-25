@@ -114,7 +114,6 @@ def calendar_tools() -> list[Tool]:
             description="List upcoming events on the specified or primary calendar."
         ),
     ]
-print("Downloading sentence-transformers model")
 rag_faiss_db = None
 rag_embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 rag_text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
