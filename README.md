@@ -1,8 +1,3 @@
----
-title: AgentFlow-Multi-Agent_Workflow_Orchestration_Assistant
-app_file: app.py
-sdk: docker
----
 # AgentFlow
 
 AgentFlow is a multi-agent workflow orchestration assistant built with LangChain, Gradio, and modern LLMs. It supports tool-augmented reasoning, Retrieval-Augmented Generation (RAG) from uploaded PDFs, and Google Calendar integration.
